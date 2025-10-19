@@ -10,18 +10,19 @@ const Index = () => {
             <Head>
                 <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="70x70" />
                 <title>Documentation | PurvVidyarthi - Alumni Management Portal</title>
-                <meta name="description" content="PurvVidyarthi is a comprehensive alumni management portal designed for colleges and schools. Build strong alumni networks, organize events, and stay connected with your institution's legacy." />
-                <meta name="keywords" content="Alumni Management, PurvVidyarthi, College Alumni Portal, School Alumni Portal, Alumni Engagement, Alumni Events, Alumni Directory" />
+                <meta name="description" content="Complete documentation for PurvVidyarthi - Learn how to set up, manage, and optimize your alumni portal. Comprehensive guides, API references, and tutorials." />
+                <meta name="keywords" content="PurvVidyarthi Documentation, Alumni Portal Guides, API Documentation, Setup Tutorials, Alumni Management System Docs, Integration Guides" />
                 <meta name="author" content="PurvVidyarthi Team" />
 
                 <meta property="og:title" content="Documentation | PurvVidyarthi - Alumni Management Portal" />
-                <meta property="og:description" content="Empower your institution with PurvVidyarthi – the ultimate solution for alumni networking, event management, and long-term engagement." />
+                <meta property="og:description" content="Access comprehensive documentation for PurvVidyarthi. Step-by-step guides, API references, and best practices for managing your alumni network." />
                 <meta property="og:image" content="/metadata/og-purvvidyarthi.png" />
-                <meta property="og:url" content="https://purvvidyarthi.in/" />
+                <meta property="og:url" content="https://docs.purvvidyarthi.in" />
+                <meta property="og:type" content="website" />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Documentation | PurvVidyarthi - Alumni Management Portal" />
-                <meta name="twitter:description" content="PurvVidyarthi helps schools and colleges manage their alumni with ease. Connect, organize, and grow with our powerful platform." />
+                <meta name="twitter:description" content="Everything you need to know about PurvVidyarthi. Detailed guides, tutorials, and API documentation." />
                 <meta name="twitter:image" content="/metadata/og-purvvidyarthi.png" />
             </Head>
 
