@@ -27,36 +27,39 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* For Candidates */}
-                <div className='flex flex-col gap-2 items-start justify-start w-auto text-base text-[#4c4c4c]'>
-                    <p className='mb-2 text-[#000] text-[1rem] font-semibold'>For Candidates</p>
-                    <a href='/internships' className='hover:text-[#663399] transition-colors'>Browse Internships</a>
-                    <a href='/' className='hover:text-[#663399] transition-colors'>Browse Category</a>
-                    <a href='/internships' className='hover:text-[#663399] transition-colors'>Candidate Dashboard</a>
-                    <a href='/internships' className='hover:text-[#663399] transition-colors'>Internship Alert</a>
-                    <a href='/internships' className='hover:text-[#663399] transition-colors'>My Bookmarks</a>
+                <div className="flex flex-col gap-3">
+                    <h4 className="text-gray-900 text-lg font-semibold mb-2">For Alumni</h4>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Browse Jobs</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Find Mentorship</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Alumni Directory</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Events & Reunions</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Regional Chapters</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Donation Portal</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Success Stories</a>
                 </div>
 
-                {/* For Employers */}
-                <div className='flex flex-col gap-2 items-start justify-start w-auto text-base text-[#4c4c4c]'>
-                    <p className='mb-2 text-[#000] text-[1rem] font-semibold'>For Employers</p>
-                    <a href='/internships' className='hover:text-[#663399] transition-colors'>Browse Companies</a>
-                    <a href='/internships' className='hover:text-[#663399] transition-colors'>Employers Dashboard</a>
-                    <a href='/internships' className='hover:text-[#663399] transition-colors'>Submit Internships</a>
-                    <a href='/internships' className='hover:text-[#663399] transition-colors'>Internship Packages</a>
-                    <a href='/contact' className='hover:text-[#663399] transition-colors'>Report Problem</a>
+                <div className="flex flex-col gap-3">
+                    <h4 className="text-gray-900 text-lg font-semibold mb-2">For Administrators</h4>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Admin Dashboard</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Manage Alumni</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Event Management</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">NAAC Reports</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Analytics & Insights</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Campaign Management</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">User Permissions</a>
                 </div>
 
-                {/* Company & Resources (Combined) */}
-                <div className='flex flex-col gap-2 items-start justify-start w-auto text-base text-[#4c4c4c]'>
-                    <p className='mb-2 text-[#000] text-[1rem] font-semibold'>Company & Resources</p>
-                    <a href='/contact' className='hover:text-[#663399] transition-colors'>Contact Us</a>
-                    <a href='/company' className='hover:text-[#663399] transition-colors'>About Company</a>
-                    <a href='/internpluss-campus-connect' className='hover:text-[#663399] transition-colors'>Our Programs</a>
-                    <a href='/blogs' className='hover:text-[#663399] transition-colors'>Blogs</a>
-                    <a href='/faqs' className='hover:text-[#663399] transition-colors'>FAQs</a>
-                    <a href='/terms' className='hover:text-[#663399] transition-colors'>Terms of Use</a>
-                    <a href='/privacy' className='hover:text-[#663399] transition-colors'>Privacy Policy</a>
+                <div className="flex flex-col gap-3">
+                    <h4 className="text-gray-900 text-lg font-semibold mb-2">Company & Resources</h4>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">About Us</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Product Guide</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Pricing</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Case Studies</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Blog</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Help Center</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Contact Us</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Terms of Service</a>
+                    <a href="#" className="text-gray-600 hover:text-[#663399] transition-colors text-base">Privacy Policy</a>
                 </div>
             </div>
 
