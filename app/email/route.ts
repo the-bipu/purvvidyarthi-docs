@@ -10,14 +10,14 @@ export async function POST(request: Request) {
     const { fullName, personalEmail, phone, professionalEmail, college, position, message } = formData;
 
     await resend.emails.send({
-      from: "PurvVidyarthi Docs <onboarding@resend.dev>",
+      from: "Purvvidyarthi Docs <onboarding@resend.dev>",
       to: [admin],
-      subject: "PurvVidyarthi - Demo Request",
+      subject: "Purvvidyarthi - Demo Request",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f5f3f7;">
           <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(102,51,153,0.1);">
             <h2 style="color: #663399; border-bottom: 3px solid #663399; padding-bottom: 10px; margin-bottom: 20px;">
-              🎯 New Demo Request - PurvVidyarthi
+              🎯 New Demo Request - Purvvidyarthi
             </h2>
             
             <div style="margin-bottom: 20px;">
@@ -57,14 +57,14 @@ export async function POST(request: Request) {
                  })} at ${new Date().toLocaleTimeString('en-US')}
               </p>
               <p style="color: #999; font-size: 12px; margin-top: 10px;">
-                From PurvVidyarthi Documentation Portal
+                From Purvvidyarthi Documentation Portal
               </p>
             </div>
           </div>
         </div>
       `,
       text: `
-        PurvVidyarthi - New Demo Request
+        Purvvidyarthi - New Demo Request
         
         PERSONAL INFORMATION
         ==================
