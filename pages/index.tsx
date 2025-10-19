@@ -1,8 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
 import Head from 'next/head';
 import Navbar from '@/components/common/Navbar';
 import Footer from '@/components/common/Footer';
+import ProductGuide from '@/components/MainPage/MainPage';
 
 const Index = () => {
     return (
@@ -27,9 +27,7 @@ const Index = () => {
 
             <Navbar />
 
-            <div className='w-full h-screen flex flex-col items-center justify-center text-4xl font-semibold bg-[#f3e7ff]'>
-                We're currently working on the Documentation. Stay tuned!
-            </div>
+            <ProductGuide />
 
             <Footer />
 
