@@ -120,3 +120,55 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: "Charlie Display";
+  src: url("./fonts/charlie-display.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Charlie Display Light";
+  src: url("./fonts/charlie-display-light.ttf") format("opentype");
+}
+
+html {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Charlie Display Light", sans-serif;
+  font-weight: 100;
+}
+
+.bold-charlie {
+  font-family: "Charlie Display", sans-serif;
+}
+
+.boxShadow {
+  box-shadow: 0 1px 1px 0 rgba(9, 30, 66, 0.25), 0 0 1px 0 rgba(9, 30, 66, 0.31);
+}
+
+.boxShadow2 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.clipPath {
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+/* hero section background */
+
+.clipPath2 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+}
+
+@media (max-width: 640px) {
+  .clipPath2 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+  }
+}
+
+.clipPath3 {
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+}

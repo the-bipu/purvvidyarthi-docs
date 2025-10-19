@@ -1,33 +1,38 @@
 import React from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
+import Navbar from '@/components/common/Navbar';
+import Footer from '@/components/common/Footer';
 
 const Index = () => {
     return (
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-            <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <div className="w-full min-h-screen flex flex-col items-center justify-center bg-white">
+            <Head>
+                <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="70x70" />
+                <title>Documentation | PurvVidyarthi - Alumni Management Portal</title>
+                <meta name="description" content="PurvVidyarthi is a comprehensive alumni management portal designed for colleges and schools. Build strong alumni networks, organize events, and stay connected with your institution's legacy." />
+                <meta name="keywords" content="Alumni Management, PurvVidyarthi, College Alumni Portal, School Alumni Portal, Alumni Engagement, Alumni Events, Alumni Directory" />
+                <meta name="author" content="PurvVidyarthi Team" />
 
-                <ul className="list-inside list-decimal text-xl text-center sm:text-left">
-                    <li>This is the starters pack for nextjs projects.</li>
-                </ul>
+                <meta property="og:title" content="Documentation | PurvVidyarthi - Alumni Management Portal" />
+                <meta property="og:description" content="Empower your institution with PurvVidyarthi – the ultimate solution for alumni networking, event management, and long-term engagement." />
+                <meta property="og:image" content="/metadata/og-purvvidyarthi.png" />
+                <meta property="og:url" content="https://purvvidyarthi.in/" />
 
-            </main>
-            <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-                <a
-                    className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="https://github.com/the-bipu"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <Image
-                        aria-hidden
-                        src="./globe.svg"
-                        alt="Globe icon"
-                        width={16}
-                        height={16}
-                    />
-                    Contact Us →
-                </a>
-            </footer>
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Documentation | PurvVidyarthi - Alumni Management Portal" />
+                <meta name="twitter:description" content="PurvVidyarthi helps schools and colleges manage their alumni with ease. Connect, organize, and grow with our powerful platform." />
+                <meta name="twitter:image" content="/metadata/og-purvvidyarthi.png" />
+            </Head>
+
+            <Navbar />
+
+            <div className='w-full h-screen flex flex-col items-center justify-center text-4xl font-semibold bg-[#f3e7ff]'>
+                We're currently working on the Documentation. Stay tuned!
+            </div>
+
+            <Footer />
+
         </div>
     )
 }
